@@ -1,5 +1,5 @@
 #!/bin/bash
-
+#Rafa Rodríguez Real
 operacio=-1
 
 
@@ -157,8 +157,7 @@ do
 
             read -p "Pulsa enter per a continuar"
 
-            clear=`clear`
-            echo $clear
+            echo `clear`
             
     else 
 
@@ -170,6 +169,8 @@ do
         else 
 
             echo "Operació no válida"
+            read -p "Pulsa enter per a continuar"
+            echo `clear`
 
         fi
 
